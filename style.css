@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #FFD32D;
+}
+
+#clock{
+background-color:#085E7D;
+color:white;
+font-size: 3rem;
+min-width: 30%;
+border: 15px groove #008E89;
+font-family: 'Alfa Slab One', cursive;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+span{
+    color: yellow;
+}
